@@ -1,0 +1,30 @@
+.card{
+  margin: 10px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.container{
+  border-width: 30px;
+  border: solid;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content:center;
+  }
+.submit-two{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #D3756B;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 25px;
+  margin-bottom: 10px
+  
+  
+}

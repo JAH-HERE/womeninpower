@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  width: 100%;
+	background-color: #FFC3A1;
+}
+
+.title{
+  text-align:center;
+  color:white;
+}
+
+.header1{
+	padding: 60px;
+  text-align: center;
+	background-position: 50%;
+	position:absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  color: #A84448;
+  font-size: 30px;
+}
+.eyebrows {
+	background-color: #Ffdcc4;
+}
+
+.space{
+ 	margin-left: 30%;
+}
+
+/* makes background color purple and hides margins and padding*/
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#A75D5D;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* changes color of nav bar when hovered*/
+li a:hover {
+  background-color:thistle;
+}
+
+table{
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top: 0%;
+  width: 40%;
+  text-align: center;
+}
+
+p {
+	font-family:"Lucida Console";
+}
+
+.carousel-one{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.carousel-two{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.carousel-three{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.carousel-four{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.button-color{
+	border-radius: 10px;
+	background-color: #D3756B;
+	color:white;
+	font-size:20px;
+      width: 50px;
+  height: 50px;
+}
+.carousel-main img{
+  height: 500px;
+  width: 900px;
+}
+.carousel-main{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.business-pictures{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 500px;
+  width: 900px;
+}
+
+.space2{
+  justify-content:center;
+  padding-left:10vw;
+  padding-right:10vw;
+  height: 70vh;
+}
+
+.businessimages img{
+  height: 40vh; 
+  width: 50vw;
+}
+.businessimages {
+  text-align: center;
+}
